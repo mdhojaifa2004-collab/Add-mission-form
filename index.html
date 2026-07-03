@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Add mission Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Student Add mission Form</h1>
+        <hr>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Student Information</legend>
+        <label for="ID">ID:</label>
+        <input placeholder="ID" type="number">
+        <br><br>
+        <label for="Title">Title:</label>
+        <select name="Title">
+            <option value="A.A.">A.A</option>
+            <option value="B.A.">B.A</option>
+            <option value="C.A.">C.A</option>
+            <option value="A.A.S">A.A.S</option>
+        </select>
+        <input placeholder="Full Title" type="text">
+        <br><br>
+        <label for="Name">Name:</label>
+        <input placeholder="Name" type="text">
+        <br><br>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <br><br>
+                <td>your age</td>
+                <td><input type="number" name="age" min="1" max="100"></td>
+                <br><br>
+            </tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Educational Information</legend>
+            <label for="SSC">SSC:</label>
+            <input placeholder="SSC" type="text">
+            <br><br>
+            <label for="HSC">HSC:</label>
+            <input placeholder="HSC" type="text">
+            <br><br>
+            <label for="BSC">BSC:</label>
+            <input placeholder="BSC" type="text">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+        <label for="phone">Phone:</label>
+        <input placeholder="Phone number" type="number">
+        <br><br>
+        <label for="address">Address:</label>
+        <input placeholder="Address" type="text">
+        <br><br>
+        <label for="Date">Admission Date:</label>
+        <input placeholder="Date" type="date">
+            <br><br>
+        <label for="Hobbies">Hobbies:</label>
+        <input type="radio" id="reading" name="Hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="radio" id="traveling" name="Hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="radio" id="sports" name="Hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <br><br>
+        <label for="Nationality">Nationality:</label>
+        <select name="Nationality">
+            <option value="Bangladeshi">Bangladeshi</option>
+            <option value="American">American</option>
+            <option value="Canadian">Canadian</option>
+            <option value="Arabian">Arabian</option>
+        </select>
+        <br><br>
+        <label for="Message">Message:</label>
+       
+        <br>
+         <textarea placeholder="Message:" name="Message:" rows="4" cols="50"></textarea>
+         <br><br>
+         <fieldset>
+            <legend>Upload your documents</legend>
+            <input type="file" name="documents" accept=".pdf,.doc,.docx">
+         
+
+        <button type="submit">submit</button>
+    </form>
+    
+    <footer>
+        <main>
+            <p>Sami webpage <br><br>&copy; 2026 My Website. All rights reserved.</p>
+        </main>
+        </fieldset>
+    </footer>
+
+    
+</body>
+</html>
